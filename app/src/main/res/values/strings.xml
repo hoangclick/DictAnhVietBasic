@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dict Anh Việt Basic</string>
+    <string name="so_number">Số - Numbers</string>
+    <string name="gia_dinh_family">Gia đình - Family</string>
+    <string name="mau_sac_color">Màu sắc - Colors</string>
+    <string name="do_dung_apliance">Đồ dùng - Apliance</string>
+    <string name="dong_vat_animal">Động vật - Animal</string>
+</resources>

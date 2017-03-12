@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.dictanhvietbasic.MainActivity">
+
+    <TextView
+    android:id="@+id/number"
+    style="@style/CategoryStyle"
+    android:background="@color/category_numbers"
+    android:text="@string/so_number" />
+
+    <TextView
+        android:id="@+id/family"
+        style="@style/CategoryStyle"
+        android:background="@color/category_family"
+        android:text="@string/gia_dinh_family" />
+
+    <TextView
+        android:id="@+id/colors"
+        style="@style/CategoryStyle"
+        android:background="@color/category_colors"
+        android:text="@string/mau_sac_color" />
+    <TextView
+        android:id="@+id/apliance"
+        style="@style/CategoryStyle"
+        android:background="@color/category_apliance"
+        android:text="@string/do_dung_apliance" />
+    <TextView
+        android:id="@+id/animal"
+        style="@style/CategoryStyle"
+        android:background="@color/category_animal"
+        android:text="@string/dong_vat_animal" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:text="Hoangclick-0976345543"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
